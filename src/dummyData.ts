@@ -18,7 +18,7 @@ const dummyData = [
         {id: uuidv4(),
         title: "react"},
         {id: uuidv4(),
-        title: "youtube"},
+        title: "watch youtube"},
         {id: uuidv4(),
         title: "PC setup"},
     ]},
