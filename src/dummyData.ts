@@ -11,7 +11,7 @@ interface TaskList {
     tasks: Task[]
 }
 
-const dummyData = [
+const dummyData: TaskList[] = [
     {id: uuidv4(),
     title: "📝doing",
     tasks: [
@@ -43,3 +43,4 @@ const dummyData = [
                 title: "drinking"},
         ]}
 ]
+export default dummyData
