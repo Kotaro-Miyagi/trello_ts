@@ -11,7 +11,7 @@ const Main: React.FC = () => {
     };
 
     return (
-        <DragDropContext >
+        <DragDropContext onDragEnd={onDragEnd}>
             <div className={"trello"}>
                 {data.map((section) => (
                     <Droppable key={section.id} droppableId={section.id}>
